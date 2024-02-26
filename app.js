@@ -124,3 +124,11 @@ currentProductSizes.forEach((size,index)=>{
         size.style.color="white"
     })
 })
+
+
+/*📌Profile section js */
+
+const profileIcon = document.querySelector(".profile-js");
+    profileIcon.addEventListener("click",()=>{
+    window.location.href="profile.html"
+});

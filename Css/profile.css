@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #4070f4;
+}
+
+.main{
+    background-color: white;
+    max-width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.heading{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-top: 0.2rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    /* margin-right: 6rem; */
+    margin-left: 0.1rem;
+}
+
+.login-email{
+    padding-left: 0.5rem;
+    margin: auto;
+    width: 350px;
+    border-radius: 9px solid lightgray;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.forgot-password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4070f4;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.button{
+    max-width: 350px;
+    margin-left: 1.5rem;
+}
+
+.login-btn{
+    margin-top: 0.7rem;
+    background-color: #4070f4;
+    width: 350px;
+    height: 30px;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border-color: #4070f4;
+    cursor: pointer;
+}
+
+.if-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.if-account>span{
+    font-size: 0.8rem;
+}
+
+#signup{
+    text-decoration: none;
+}
+
+.line{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin-left: 1.5rem;
+}
+
+.line>span{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.login-line-left{
+    height: 0.5px; 
+    width: 48%;
+    background-color: black;
+    
+}
+.login-line-right{
+    height: 0.5px; 
+    width: 48%;
+    background-color: black;
+    
+}
+
+
+.other-login-options{
+    width: 350px;
+    background-color: #4070f4;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.facebook{
+    border: none;
+    background-color: #4070f4;
+}
